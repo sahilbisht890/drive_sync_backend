@@ -1,0 +1,77 @@
+# -----------------------------
+# Node modules
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Rclone (SENSITIVE)
+# -----------------------------
+rclone.config
+rclone.conf
+rclone-*.log
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+
+# -----------------------------
+# Runtime / PID files
+# -----------------------------
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# -----------------------------
+# Build / Dist folders
+# -----------------------------
+dist/
+build/
+.next/
+out/
+
+# -----------------------------
+# Coverage
+# -----------------------------
+coverage/
+
+# -----------------------------
+# OS generated files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# Temporary files
+# -----------------------------
+tmp/
+temp/
+
+# -----------------------------
+# Docker (optional)
+# -----------------------------
+docker-compose.override.yml
